@@ -52,7 +52,6 @@ class DataModel: ObservableObject {
                 print(completion)
             }, receiveValue: {[weak self] data in
                 self?.activity = data.activity
-                print(data.activity)
                 self?.key = data.key
                 self?.type = data.type
             })

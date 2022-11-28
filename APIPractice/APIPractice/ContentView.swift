@@ -18,6 +18,9 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundColor(.accentColor)
             Text("Hello, world!")
+            Text(dataModel.type ?? "")
+            Text(dataModel.activity ?? "")
+            Text("Or we will murder your family!")
             
         }
         .onAppear{
