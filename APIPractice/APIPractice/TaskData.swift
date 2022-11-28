@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct TaskData{
+struct TaskData: Decodable {
     let activity: String
     let type: String
     let key: Int

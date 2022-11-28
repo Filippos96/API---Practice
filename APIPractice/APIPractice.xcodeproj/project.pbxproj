@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1106CD432934B5DD00816471 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106CD422934B5DD00816471 /* DataModel.swift */; };
 		111FDA062931212C00B82376 /* APIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111FDA052931212C00B82376 /* APIPracticeApp.swift */; };
 		111FDA082931212C00B82376 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 111FDA072931212C00B82376 /* ContentView.swift */; };
 		111FDA0A2931212D00B82376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 111FDA092931212D00B82376 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1106CD422934B5DD00816471 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
 		111FDA022931212C00B82376 /* APIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		111FDA052931212C00B82376 /* APIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIPracticeApp.swift; sourceTree = "<group>"; };
 		111FDA072931212C00B82376 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				111FDA092931212D00B82376 /* Assets.xcassets */,
 				111FDA0B2931212D00B82376 /* Preview Content */,
 				111FDA2F2931295A00B82376 /* TaskData.swift */,
+				1106CD422934B5DD00816471 /* DataModel.swift */,
 			);
 			path = APIPractice;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				111FDA082931212C00B82376 /* ContentView.swift in Sources */,
+				1106CD432934B5DD00816471 /* DataModel.swift in Sources */,
 				111FDA062931212C00B82376 /* APIPracticeApp.swift in Sources */,
 				111FDA302931295A00B82376 /* TaskData.swift in Sources */,
 			);
